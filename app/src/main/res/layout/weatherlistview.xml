@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="45dp"
+            android:textColor="#ff000000"
+            android:textSize="35sp"
+            android:gravity="left"
+            android:paddingTop="7dip"
+            android:paddingBottom="3dip" />
+
+        <ImageView
+            android:id="@+id/ImageDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/highestTem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginRight="16dp"
+            android:textSize="28sp"
+            android:paddingTop="7dip"
+            android:paddingBottom="3dip" />
+        />
+
+        <TextView
+            android:id="@+id/lowestTem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="28sp"
+            android:textColor="#acacac"
+            android:layout_marginRight="20dp"
+            android:paddingTop="7dip"
+            android:paddingBottom="3dip" />
+
+    </LinearLayout>
+
+</LinearLayout>

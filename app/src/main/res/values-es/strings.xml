@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlphaWeather</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="textLat">textLat</string>
+    <string name="textLong">textLong</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="gps_enabled">GPS habilitado</string>
+    <string name="gps_disabled">GPS Disabled</string>
+    <string name="city">city, state</string>
+    <string name="day">day</string>
+    <string name="description">description</string>
+    <string name="temperature">75ºF</string>
+
+    <string name="title_activity_settings">Preferencias</string>
+
+    <string name="pref_title_temperature_preferences">Temperatura en grados Celsius</string>
+    <string name="pref_description_temp">Indicadores de temperatura cuando se selecciona en Celsius</string>
+
+    <string name="zip_code">Mostrar código postal</string>
+    <string name="pref_default_display_zip_code"></string>
+
+    <string name="pref_title_sync_frequency">Tiempo Frecuencia de actualización</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 horas</item>
+        <item>2 horas</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>180</item>
+    </string-array>
+
+    <string name="forecast_display_days">Días para mostrar</string>
+    <string-array name="forecast_days_list">
+        <item>1 día</item>
+        <item>2 día</item>
+        <item>3 día</item>
+        <item>4 día</item>
+        <item>5 día</item>
+    </string-array>
+    <string-array name="forecast_days_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>
